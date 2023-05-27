@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-# nome_do_script.sh - Breve descrição
+# create-cluster.sh - Cria um cluster Kubernetes com Kind e extensoes
 #
 # Autor:      Mateus Schwertz
 #
@@ -8,7 +8,7 @@
 #  Descrição
 #
 #  Exemplos:
-#      $ ./nomedoscript.sh -d 1
+#      $ ./create-cluster.sh --no-ingres --no-metalb --cluster-name demo
 # ------------------------------------------------------------------------ #
 # Testado em:
 #   bash 5.1.8
